@@ -7,6 +7,15 @@
   <packaging>war</packaging>
   <build>
     <finalName>MegaHack-30</finalName>
+     <plugins>
+      <plugin>
+        <groupId>com.heroku.sdk</groupId>
+        <artifactId>heroku-maven-plugin</artifactId>
+        <version>3.0.2</version>
+      </plugin>
+    </plugins>
+    
+    
   </build>
   <properties>
     <failOnMissingWebXml>false</failOnMissingWebXml>
