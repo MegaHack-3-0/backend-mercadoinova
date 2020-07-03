@@ -2,14 +2,17 @@ package br.com.megahack.conf;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
+import org.springframework.http.MediaType;
+import org.springframework.web.servlet.config.annotation.ContentNegotiationConfigurer;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
+import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
 import org.springframework.web.servlet.view.InternalResourceViewResolver;
 
 import br.com.megahack.site.HomeController;
 
 @EnableWebMvc
-@ComponentScan(basePackageClasses = {HomeController.class})
-public class AppWebConfiguration {
+@ComponentScan(basePackageClasses = { HomeController.class })
+public class AppWebConfiguration extends WebMvcConfigurerAdapter {
 
 	@Bean
 	public InternalResourceViewResolver internalResourceViewResolver() {
@@ -18,5 +21,10 @@ public class AppWebConfiguration {
 		resolver.setSuffix(".jsp");
 		return resolver;
 	}
-	
+
+	@Override
+	public void configureContentNegotiation(final ContentNegotiationConfigurer configurer) {
+		configurer.parameterName("mediaType").defaultContentType(MediaType.APPLICATION_JSON);
+	}
+
 }
