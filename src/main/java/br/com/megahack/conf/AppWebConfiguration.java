@@ -8,10 +8,10 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
 import org.springframework.web.servlet.view.InternalResourceViewResolver;
 
-import br.com.megahack.site.HomeController;
+import br.com.megahack.site.BenefitController;
 
 @EnableWebMvc
-@ComponentScan(basePackageClasses = { HomeController.class })
+@ComponentScan(basePackageClasses = { BenefitController.class })
 public class AppWebConfiguration extends WebMvcConfigurerAdapter {
 
 	@Bean

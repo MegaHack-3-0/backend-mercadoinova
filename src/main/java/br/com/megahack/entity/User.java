@@ -6,9 +6,9 @@ public class User implements Serializable {
 
 	private static final long serialVersionUID = 1L;
 	String name;
-	Integer experience;
-	Integer stars;
-	Integer byts;
+	int experience;
+	int stars;
+	int byts;
 
 	public User() {
 	}
@@ -54,7 +54,8 @@ public class User implements Serializable {
 
 	@Override
 	public String toString() {
-		return new StringBuilder().append(getName()).toString();
+		return new StringBuilder().append(getName()).append(getExperience()).append(getStars()).append(getByts())
+				.toString();
 	}
 
 }
