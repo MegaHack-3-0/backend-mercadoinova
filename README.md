@@ -1,10 +1,3 @@
-<!-- PROJECT LOGO -->
-<h1 align="center">
-  <a href="https://github.com/MegaHack-3-0/mobile-mercadoinova">
-    <img src=".github/logo.png" alt="Logo">
-  </a>
-</h1>
-
 <!-- TABLE OF CONTENTS -->
 # Índice
 * [Sobre o Projeto](#-sobre-o-projeto)
