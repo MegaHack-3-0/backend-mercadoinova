@@ -18,7 +18,7 @@
 # Sobre o Projeto
 
 ## Descrição
-Mercado Inova é um app desenvolvido pela equipe 20 para do sesafio do Mercado Livre durante o Mega Hack 3.0 2020.
+Mercado Inova é um app desenvolvido pela equipe 20 para o desafio do Mercado Livre durante o Mega Hack 3.0 2020.
 A ideia do app é gerenciar os eletrônicos do usuário para evitar que fiquem muito velhos e perca de dinheiro!
 
 ***
@@ -104,9 +104,10 @@ Distribuido sobre a Licença MIT. Clique em [Licença](LICENSE.md) para mais det
 <!-- CONTACT -->
 # Contato
 
+* Ane Mendes - <ralianemc@gmail.com>
 * Daniel - <daniel.keterer@gmail.com>
 * João Vitor - <j.vitor.mf@gmail.com>
-* Ane Mendes - <raliane.mc@gmail.com>
+
 
 [Voltar ao topo](#-índice)
 ***
